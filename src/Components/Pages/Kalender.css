@@ -1,0 +1,20 @@
+.react-calendar {
+    max-width: 50%;
+    margin: 0 auto;
+    /* Centrera kalendern på sidan */
+}
+
+.react-calendar__month-view__days button {
+    margin: 10px;
+    background-color: #b5651d;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    transition: transform 0.3s ease;
+}
+
+.react-calendar__month-view__days button:hover {
+    background-color: rgb(245, 209, 9);
+    transform: scale(1.3);
+}
